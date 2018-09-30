@@ -78,4 +78,4 @@ _android_ //기울여쓰기
   <sapn style="color:red">내용</span>
   ```
   * 빨강색 : <sapn style="color:red">빨강</span>
-  * 파랑색 : <sapn style="color:blue"></span>
+  * 파랑색 : <sapn style="color:blue">파랑</span>
