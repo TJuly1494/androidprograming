@@ -1,7 +1,5 @@
-# GIT Hub 주소
-### https://github.com/JinYongHwa/AndroidPrograming
-
-### E-mail 주소
-> yhjin@hhsoft.co.kr
-
-### [Android Studio 설치 매뉴얼](https://developer.android.com/studio/install?hl=ko)
+# Markdown 문법 정리
+##1.헤더
+* 총 3가지의 헤더가 존재한다.
+  * 대주제
+  # 대주제
