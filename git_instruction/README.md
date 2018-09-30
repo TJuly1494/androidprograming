@@ -3,7 +3,7 @@
 ### 전역 설정 정보 조회하기
  * git config - -global - -list
 ### 전역 설정 정보 삭제시키기
- * git config --global --unset-all user.email 이메일 주소를 듣록
+ * git config --global --unset-all user.email 이메일 주소를 등록
  * git config --global --unset-all user.name  사용자명을 등록
 ### 터미널에 표시되는 메시지에 칼라를 표시
  * git config --global color.ui "auto"
