@@ -62,3 +62,20 @@ _android_ //기울여쓰기
   * *android* 
   * _android_ 
   * ~~android~~ 
+---
+## 구분선(수평선)
+ * '-' 또는 '*' 또는 '_'을 3개 이상 작성해야 한다.
+ ```
+ ---
+ ***
+ ___
+ ```
+ ---
+ ## 글 색상 바꾸기
+  * 기본적으로 문법에서 지원하지는 않는다.
+  * HTML 태그를 활용해야 한다.
+  ```
+  <sapn style="color:red">내용</span>
+  ```
+  * 빨강색 : <sapn style="color:red">빨강</span>
+  * 파랑색 : <sapn style="color:blue"></span>
