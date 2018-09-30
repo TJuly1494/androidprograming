@@ -102,5 +102,5 @@ int main()
  [링크][1] [1]: http://abc.com/ "링크제목" //참고 링크
  <abc.com/> <dfs@abc.com> //url 링크
  ```
-     1. 인라인 링크 : [Google](http://google.co.kr "구글")
-     2.
+   1. 인라인 링크 : [Google](http://google.co.kr "구글")
+   2.
