@@ -71,13 +71,18 @@ _android_ //기울여쓰기
  ___
  ```
  ---
- ### 글 색상 바꾸기
-  * 기본적으로 문법에서 지원하지는 않는다.
-  * HTML 태그를 활용해야 한다.
-  ```
-  <sapn style="color:red">내용</span>
-  ```
-  * 빨강색 : <sapn style="color:red">빨강</span>
-  * 파랑색 : <sapn style="color:blue">파랑</span>
-  ---
-  
+### 글 색상 바꾸기
+ * 기본적으로 문법에서 지원하지는 않는다.
+ * HTML 태그를 활용해야 한다.
+ ```
+ <sapn style="color:red">내용</span>
+ ```
+ * 빨강색 : <sapn style="color:red">빨강</span>
+ * 파랑색 : <sapn style="color:blue">파랑</span>
+---
+### 예제코드 작성
+```
+```
+code
+```
+```
