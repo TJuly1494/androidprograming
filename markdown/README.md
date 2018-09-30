@@ -87,3 +87,20 @@ _android_ //기울여쓰기
 code
 ```(마무리)
 ```
+```
+int main()
+{
+  printf("Hellow World!");
+  return 0;
+}
+```
+---
+### 링크
+ * 외부 링크
+ ```
+ [링크](http://abc.com "링크제목") //인라인 링크
+ [링크][1] [1]: http://abc.com/ "링크제목" //참고 링크
+ <abc.com/> <dfs@abc.com> //url 링크
+ ```
+     1. 인라인 링크 : [Google](http://google.co.kr "구글")
+     2.
