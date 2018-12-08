@@ -1,4 +1,5 @@
 #List View
+---
 ### MainActivity.java
 '''
 package com.example.tjuly.total;
@@ -48,6 +49,7 @@ public class Mainctivity extends Activity {
     }
 }
 '''
+---
 ###ListItem.java
 '''
 package com.example.tjuly.total;
@@ -100,6 +102,7 @@ public class ListItem {
     }
 }
 '''
+---
 ###ListItemLayout.java
 '''package com.example.tjuly.total;
 
@@ -146,6 +149,7 @@ public class ListItemLayout extends LinearLayout {
     }
 }
 '''
+---
 ###ListAdapter.java
 '''
 package com.example.tjuly.total;
@@ -203,6 +207,7 @@ public class ListAdapter extends BaseAdapter{
     }
 }
 '''
+---
 ###activity_main.xml
 '''
 <?xml version="1.0" encoding="utf-8"?>
@@ -220,6 +225,7 @@ public class ListAdapter extends BaseAdapter{
         tools:layout_editor_absoluteY="8dp" />
 </android.support.constraint.ConstraintLayout>
 '''
+---
 ###list_item.xml
 '''
 <?xml version="1.0" encoding="utf-8"?>
