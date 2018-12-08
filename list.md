@@ -1,8 +1,7 @@
 # List View
 
 ### MainActivity.java
-
-package com.example.tjuly.total;
+```package com.example.tjuly.total;
 
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
@@ -48,13 +47,10 @@ public class Mainctivity extends Activity {
         });
     }
 }
-
----
+```
 
 ### ListItem.java
-
-
-package com.example.tjuly.total;
+```package com.example.tjuly.total;
 
 import android.graphics.drawable.Drawable;
 
@@ -103,12 +99,10 @@ public class ListItem {
         this.data2 = data2;
     }
 }
-
----
+```
 
 ### ListItemLayout.java
-
-package com.example.tjuly.total;
+```package com.example.tjuly.total;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -152,13 +146,10 @@ public class ListItemLayout extends LinearLayout {
         data2Tv.setText(text);
     }
 }
-
----
+```
 
 ### ListAdapter.java
-
-
-package com.example.tjuly.total;
+```package com.example.tjuly.total;
 
 import android.content.Context;
 import android.view.View;
@@ -212,14 +203,10 @@ public class ListAdapter extends BaseAdapter{
         return itemView;
     }
 }
-
-
----
+```
 
 ### activity_main.xml
-
-'''
-<?xml version="1.0" encoding="utf-8"?>
+```<?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -233,13 +220,10 @@ public class ListAdapter extends BaseAdapter{
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp" />
 </android.support.constraint.ConstraintLayout>
-
----
+```
 
 ### list_item.xml
-
-
-<?xml version="1.0" encoding="utf-8"?>
+```<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -287,3 +271,4 @@ public class ListAdapter extends BaseAdapter{
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
+```
