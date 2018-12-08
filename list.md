@@ -1,6 +1,7 @@
-#List View
----
+# List View
+
 ### MainActivity.java
+
 '''
 package com.example.tjuly.total;
 
@@ -50,7 +51,9 @@ public class Mainctivity extends Activity {
 }
 '''
 ---
-###ListItem.java
+
+### ListItem.java
+
 '''
 package com.example.tjuly.total;
 
@@ -103,7 +106,9 @@ public class ListItem {
 }
 '''
 ---
-###ListItemLayout.java
+
+### ListItemLayout.java
+
 '''package com.example.tjuly.total;
 
 import android.content.Context;
@@ -150,7 +155,9 @@ public class ListItemLayout extends LinearLayout {
 }
 '''
 ---
-###ListAdapter.java
+
+### ListAdapter.java
+
 '''
 package com.example.tjuly.total;
 
@@ -208,7 +215,9 @@ public class ListAdapter extends BaseAdapter{
 }
 '''
 ---
-###activity_main.xml
+
+### activity_main.xml
+
 '''
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
@@ -226,7 +235,9 @@ public class ListAdapter extends BaseAdapter{
 </android.support.constraint.ConstraintLayout>
 '''
 ---
-###list_item.xml
+
+### list_item.xml
+
 '''
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
