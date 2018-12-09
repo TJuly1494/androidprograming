@@ -38,16 +38,19 @@
 
 ### res/values/colors.xml
 ```색상값을 저장하는 리소스파일
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>
 ```
 
 ### res/values/dimens.xml
 ```각종 사이즈값을 저장하는 리소스파일
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <dimen name="text_size">20sp</dimen>
 </resources>
 ```
 
